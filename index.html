@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
-  <meta name="theme-color" content="#0d3b66">
-  <meta name="description" content="Tài Liệu Hội Nghị">
-  <title>Tài Liệu Hội Nghị</title>
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Tài liệu hội nghị 2026–2027">
+  <title>Tài liệu hội nghị 2026–2027</title>
   <style>
     * {
       box-sizing: border-box;
@@ -14,127 +14,89 @@
     }
 
     body {
-      font-family: Arial, "Segoe UI", Roboto, Helvetica, sans-serif;
-      background-color: #f7f9fa;
-      color: #222222;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #ffffff;
+      color: #000000;
       min-height: 100vh;
       min-height: 100dvh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 20px 16px;
+      padding: 32px 24px;
+      padding-top: max(32px, env(safe-area-inset-top));
+      padding-bottom: max(32px, env(safe-area-inset-bottom));
+      -webkit-font-smoothing: antialiased;
     }
 
     .container {
       width: 100%;
-      max-width: 400px;
-      background: #ffffff;
-      border: 1px solid #dcdfe3;
-      border-top: 4px solid #0d3b66;
-      border-radius: 8px;
-      padding: 32px 24px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-      text-align: center;
+      max-width: 460px;
+      margin: 0 auto;
     }
 
     .title {
-      font-size: 22px;
+      font-size: 32px;
       font-weight: 700;
-      color: #0d3b66;
-      letter-spacing: 0.5px;
-      text-transform: uppercase;
-      margin-bottom: 8px;
-    }
-
-    .divider {
-      width: 48px;
-      height: 2px;
-      background-color: #0d3b66;
-      margin: 12px auto 20px auto;
-    }
-
-    .note {
-      font-size: 14px;
-      color: #555555;
+      line-height: 1.2;
+      color: #000000;
+      letter-spacing: -0.5px;
       margin-bottom: 24px;
+    }
+
+    .subtitle {
+      font-size: 21px;
+      font-weight: 400;
+      color: #000000;
+      margin-bottom: 20px;
     }
 
     .btn-group {
       display: flex;
       flex-direction: column;
-      gap: 14px;
+      gap: 16px;
     }
 
     .btn {
       display: block;
       width: 100%;
-      padding: 16px 12px;
-      font-size: 15px;
-      font-weight: 700;
-      text-decoration: none;
-      text-align: center;
-      border-radius: 6px;
-      letter-spacing: 0.3px;
-      transition: background-color 0.15s ease, opacity 0.15s ease;
+      background-color: #efeffe;
+      border-radius: 12px;
+      padding: 16px 20px;
+      text-decoration: underline;
+      text-underline-offset: 4px;
+      color: #1d386a;
+      font-size: 18.5px;
+      font-weight: 500;
+      text-align: left;
+      line-height: 1.4;
       cursor: pointer;
+      border: none;
       -webkit-tap-highlight-color: transparent;
+      transition: background-color 0.15s ease, opacity 0.15s ease;
     }
 
     .btn:active {
-      opacity: 0.85;
-      transform: translateY(1px);
+      opacity: 0.75;
+      background-color: #e5e5fa;
     }
 
-    /* Nút 1: Xem Website Hội Nghị */
-    .btn-web {
-      background-color: #0d3b66;
-      color: #ffffff;
-      border: 1px solid #0d3b66;
-    }
-
-    .btn-web:hover {
-      background-color: #092a4a;
-    }
-
-    /* Nút 2: Xem Tài Liệu PDF */
-    .btn-pdf {
-      background-color: #b91c1c;
-      color: #ffffff;
-      border: 1px solid #b91c1c;
-    }
-
-    .btn-pdf:hover {
-      background-color: #991b1b;
-    }
-
-    .footer {
-      margin-top: 24px;
-      font-size: 12px;
-      color: #777777;
-      text-align: center;
+    .btn:hover {
+      background-color: #e8e8fc;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1 class="title">TÀI LIỆU HỘI NGHỊ</h1>
-    <div class="divider"></div>
-    <p class="note">Vui lòng chọn nội dung cần xem:</p>
+  <main class="container">
+    <h1 class="title">Tài liệu hội nghị<br>2026–2027</h1>
+
+    <p class="subtitle">Chọn nội dung:</p>
 
     <div class="btn-group">
-      <a href="http://fphhcm.edu.vn/bao-cao-tong-ket-nam-hoc/" class="btn btn-web" target="_blank" rel="noopener noreferrer">
-        XEM WEBSITE HỘI NGHỊ
+      <a href="http://fphhcm.edu.vn/bao-cao-tong-ket-nam-hoc/" class="btn" target="_blank" rel="noopener noreferrer">
+        1. Báo cáo tổng kết năm học
       </a>
 
-      <a href="https://drive.google.com/file/d/1UUFp_MAQClSWqIdIeDgOJEvAWpBoKu_Y/view?usp=drive_link" class="btn btn-pdf" target="_blank" rel="noopener noreferrer">
-        XEM TÀI LIỆU PDF
+      <a href="https://drive.google.com/file/d/1UUFp_MAQClSWqIdIeDgOJEvAWpBoKu_Y/view?usp=drive_link" class="btn" target="_blank" rel="noopener noreferrer">
+        2. Báo cáo công đoàn (PDF)
       </a>
     </div>
-  </div>
-
-  <div class="footer">
-    Hội nghị tổng kết năm học
-  </div>
+  </main>
 </body>
 </html>
